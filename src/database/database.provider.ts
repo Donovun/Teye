@@ -5,7 +5,7 @@ export const databaseProviders = [
     provide: 'DATABASE_CONNECTION',
     useFactory: (): Promise<typeof mongoose> =>
       mongoose.connect(
-        'mongodb://localhost:27023/test',
+        'mongodb://admin:admin123@61.7.237.18:5757/?authSource=admin&readPreference=primary&ssl=false',
       ),
   },
 ];

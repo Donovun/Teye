@@ -4,7 +4,6 @@ import { databaseProviders } from './database.provider';
 import { skillProviders } from 'src/skill/skill.provider';
 import { battleProviders } from 'src/pokemon-battle/battle.provider';
 
-
 @Module({
   providers: [
     ...pokemonProviders,
